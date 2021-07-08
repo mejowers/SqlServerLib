@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SqlServerLibrary
-{
-   public class User
-    {
+namespace SqlServerLibrary {
+    public class User {
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
